@@ -22,6 +22,11 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
+Change default pull behavior
+```
+git config --global pull.rebase true
+```
+
 Configure a [better git log](https://coderwall.com/p/euwpig/a-better-git-log):
 ```
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
