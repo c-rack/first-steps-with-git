@@ -32,7 +32,7 @@ Configure a [better git log](https://coderwall.com/p/euwpig/a-better-git-log):
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 ```
 
-Enable signed commits (you need to "git commit -S" to sign the commit with your key) 
+Enable signed commits (you need to `git commit -S` to sign the commit with your key) 
 ```
 git config --global gpg.format ssh
 git config --global user.signingKey ~/.ssh/id_rsa.pub
