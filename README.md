@@ -49,6 +49,11 @@ git config --global rerere.enabled true
 git config --global rerere.autoUpdate true
 ```
 
+Make sure `git push` commands are [performing the correct compression](https://www.jonathancreamer.com/how-we-shrunk-our-git-repo-size-by-94-percent/)
+```
+git config --global pack.usePathWalk true
+```
+
 ## Maintenance
 
 In each repository, enable the automatic git maintenance
